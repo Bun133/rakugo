@@ -1,0 +1,23 @@
+{
+  "name": "rakugo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bun133/rakugo.git"
+  },
+  "author": "Bun133,haru0313",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Bun133/rakugo/issues"
+  },
+  "homepage": "https://github.com/Bun133/rakugo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "https": "^1.0.0"
+  }
+}
