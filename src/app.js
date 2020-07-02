@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express();
+var api_router = require("../routes/APIRouter");
 
 //Server Start
 var server = app.listen(3000, function(){
@@ -22,6 +23,8 @@ var photoList = [
 
 // View EngineにEJSを指定。
 app.set('view engine', 'ejs');
+
+app.use('/api/odpt',api_router);
 
 // "/"へのGETリクエストでindex.ejsを表示する。拡張子（.ejs）は省略されていることに注意。
 app.get("/", function(req, res, next){
